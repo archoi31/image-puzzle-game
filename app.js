@@ -82,7 +82,7 @@ container.addEventListener("drop",e=>{
     let originPlace;
     let isLast = false;
 
-    if(dragged.el.nextSiling){
+    if(dragged.el.nextSiling){i
         originPlace = dragged.el.nextSiling;
     }else{
         originPlace = dragged.el.previousSibling;
